@@ -32,8 +32,8 @@ export const PhraseSection = () => {
       title: 'Regalo',
       value: 'gift',
       src: '/gift.gif',
-      cbu: '0000003100083745283862',
-      alias: 'boda.candepablo (mercado pago)',
+      cbu: '0000003100099292978913',
+      alias: 'lolaamoyaa',
       text: 'Opcion de regalo, si deseas hacerlo, puedes hacerlo a traves de transferencia.'
     }
   }
