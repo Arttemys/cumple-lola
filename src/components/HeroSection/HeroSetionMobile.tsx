@@ -19,19 +19,7 @@ export const HeroSetionMobile = () => {
           objectFit: 'cover'
         }}
       />
-      <Grid>
-        <Image
-          alt="logo"
-          src={Logo}
-          style={{
-            width: '150%',
-            height: 'auto',
-            marginLeft: '-25%',
-            marginTop: '-100%'
-          }}
-        />
-      </Grid>
-
+      
       <Grid size={6} sx={{ backgroundColor: "primary.light", width: '100%', padding: 3, position: 'absolute', bottom: 0 }}>
         <CustomTypography variant="body2" color="primary" fontWeight={700} align="center"
           label="Por eso el hombre dejará a su padre y a su madre para unirse a su mujer, y los dos no serán sino una  sola carne. (Mt 19, 5)" />
