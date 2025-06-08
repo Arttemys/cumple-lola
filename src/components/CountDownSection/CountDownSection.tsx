@@ -1,4 +1,4 @@
-import { Grid2 as Grid, useTheme } from "@mui/material"
+import { Grid2 as Grid } from "@mui/material"
 import { useEffect, useState } from "react"
 import { TimerContainer } from "./TimerContainer";
 import dayjs from "dayjs";
@@ -13,7 +13,6 @@ export const CountDownSection = () => {
   const today = dayjs()
   const time = dueDate.diff(today, 'milliseconds')
 
-  const theme = useTheme()
 
   useEffect(() => {
     const updateTime = setInterval(() => {

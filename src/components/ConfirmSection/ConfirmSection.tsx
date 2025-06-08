@@ -1,4 +1,4 @@
-import { Button, Grid2 as Grid, Typography } from "@mui/material"
+import { Grid2 as Grid } from "@mui/material"
 import Image from "next/image"
 import { CustomTypography } from "../CustomTypography/CustomTypography"
 import { isMobile } from "react-device-detect";
